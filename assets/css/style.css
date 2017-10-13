@@ -1,0 +1,158 @@
+.header
+{
+	display: block;
+	height: 146px;
+	width: 305px;
+	background-image: url("../images/voyager.jpg");
+	background-size: 299px;
+	border: 10px solid grey;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	color: yellow;
+	position: relative;
+	top: 3%;
+}
+
+.header h1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 41%;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.viewwindow {
+	background-image: url("../images/sickbay.jpg");
+	height: 770px;
+	position: relative;
+}
+
+.container {
+	width: 1025px;
+	height: 760px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+
+#yournum {
+	display: block;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: 5px solid grey;
+	left: 0%;
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-size: 15px;
+}
+
+#ynp2 {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+#randnum {
+	display: block;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: 5px solid grey;
+	right: 0%;
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-size: 15px;
+}
+
+#rnp2 {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.images {
+	display: block;
+	position: absolute;
+	height: 125px;
+	width: 550px;
+	background-color: #A9A9A9;
+	border: 5px solid #696969;
+	top: 30%;
+	left: 23%;
+}
+
+#img1 {
+	float: left;
+	margin-left: 10%;
+	margin-top: 4%;
+
+}
+
+#img2 {
+	float: left;
+	margin-left: 8%;
+	margin-top: 4%;
+}
+
+#img3 {
+	float: left;
+	margin-left: 8%;
+	margin-top: 4%;
+}
+
+#img4 {
+	float: left;
+	margin-left: 8%;
+	margin-top: 4%;
+}
+
+.instructions {
+	background-image: url(../images/lcars.gif);
+	height: 365px;
+	width: 799px;
+	position: absolute;
+	left: 11%;
+	bottom: 0%;
+	border: 5px solid #696969;
+	color: yellow;
+}
+
+#ih {
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#saved {
+	display: block;
+	position: absolute;
+	left: 17%; 
+	top: 18%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#lost {
+	display: block;
+	position: absolute;
+	right: 17%;
+	top: 18%;
+	font-size: 30px;
+	text-align: center;
+}
+
+.itext {
+	position: absolute;;
+	width: 600px;
+	left: 15%;
+	bottom: 4%;
+	font-size: 16px;
+	line-height: 111%;
+}
