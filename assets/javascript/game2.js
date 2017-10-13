@@ -1,6 +1,6 @@
 window.onload = function(){
 
-var target = 50;
+var target = Math.floor((Math.random() * 100) + 1);
 	$("#rnp2").text(target);
 
 var counter = 0;
@@ -19,6 +19,7 @@ $(".hypo").on("click", function() {
 
 	var hypoValue = ($(this).attr("data-hypovalue"));
 	hypoValue = parseInt(hypoValue);
+	if (counter === target) {}
 
 	counter += hypoValue;
 
@@ -27,7 +28,9 @@ $(".hypo").on("click", function() {
 	if (counter === target) {
 			
 			$('#sp2').text(Number($('#sp2').text())+1);
+			$('#rpn2').append(Math.floor((Math.random() * 100) + 1));
 			$('#ynp2').text("0");
+			//$('data-hypoValue').removeData();
 
 		} else if (counter >= target){
 
@@ -35,7 +38,7 @@ $(".hypo").on("click", function() {
 			
 		}
 
-	})
+	});
 
 
 
