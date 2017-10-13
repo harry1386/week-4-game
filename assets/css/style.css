@@ -86,7 +86,16 @@
 	left: 23%;
 }
 
-#img1 {
+.hypo {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 9%;
+	margin-top: 4%;
+
+}
+
+/*#img1 {
 	float: left;
 	margin-left: 10%;
 	margin-top: 4%;
@@ -109,7 +118,7 @@
 	float: left;
 	margin-left: 8%;
 	margin-top: 4%;
-}
+}*/
 
 .instructions {
 	background-image: url(../images/lcars.gif);
