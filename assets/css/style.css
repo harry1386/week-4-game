@@ -82,7 +82,7 @@
 	width: 550px;
 	background-image: url("../images/metal.jpg");
 	background-size: 550px;
-	border: 5px solid #696969;
+	border: 5px inset #C3C3C3;
 	top: 30%;
 	left: 23%;
 }
