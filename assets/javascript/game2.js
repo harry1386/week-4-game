@@ -28,7 +28,6 @@ $(".hypo").on("click", function() {
 			
 			$('#sp2').text(Number($('#sp2').text())+1);
 			$('#ynp2').text("0");
-			//$('data-hypoValue').removeData();
 			counter = 0;
 			hypoValue = 0;
 			//$('#rnp2').text(Math.floor((Math.random() * 100) +1));
@@ -42,6 +41,12 @@ $(".hypo").on("click", function() {
 			//$('#rnp2').text(Math.floor((Math.random() * 100) +1));
 			
 		}
+
+	/*if (counter = 0) {
+		$('#rnp2').text(Math.floor((Math.random() * 100) +1));
+	}if else (counter >= target) {
+		$('#rnp2').text(Math.floor((Math.random() * 100) +1));
+	}*/
 
 	});
 
