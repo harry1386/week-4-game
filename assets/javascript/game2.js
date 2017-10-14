@@ -19,7 +19,6 @@ $(".hypo").on("click", function() {
 
 	var hypoValue = ($(this).attr("data-hypovalue"));
 	hypoValue = parseInt(hypoValue);
-	if (counter === target) {}
 
 	counter += hypoValue;
 
@@ -28,13 +27,19 @@ $(".hypo").on("click", function() {
 	if (counter === target) {
 			
 			$('#sp2').text(Number($('#sp2').text())+1);
-			$('#rpn2').append(Math.floor((Math.random() * 100) + 1));
 			$('#ynp2').text("0");
 			//$('data-hypoValue').removeData();
+			counter = 0;
+			hypoValue = 0;
+			//$('#rnp2').text(Math.floor((Math.random() * 100) +1));
 
 		} else if (counter >= target){
 
 			$('#lp2').text(Number($('#lp2').text())+1);
+			$('#ynp2').text("0");
+			counter = 0;
+			hypoValue = 0;
+			//$('#rnp2').text(Math.floor((Math.random() * 100) +1));
 			
 		}
 
